@@ -1,0 +1,6 @@
+container:
+  image: microsoft/powershell
+  cpu: 2
+  memory: 1G
+task:
+  script: pwsh -C 'echo Hello'
